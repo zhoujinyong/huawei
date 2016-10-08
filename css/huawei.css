@@ -1,0 +1,230 @@
+/*顶部开始*/
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,form,input,textarea{
+	 margin: 0;padding: 0;border: 0px;}
+body{font-family:"微软雅黑","楷体";
+	font-size: 16px;}
+img{border :0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.top-box{width:100%;
+		height:36px;
+		background:#5d5d58;
+		position: relative;}
+.top-mid{width: 1170px;
+		height: 36px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -585px;
+		 background:#5d5d58;}
+.top-mid a{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	color: #ccc;
+	padding: 0 15px;}
+.top-mid a:hover{
+	background: #fff}
+.top-mid .top-index{background: #fff;
+	color: #333;}
+.top-mid .top-index:hover{color: #333;}
+/*顶部结束*/
+/*logo开始*/
+.b2{
+	width: 1170px;
+	height: 80px;
+	margin: 0 auto;
+}
+#logo img {
+	width:167px ;
+	height: 80px;
+	float: left;
+}
+.denglu{
+	float: right;
+	width: 322px;
+	height:80px;
+	line-height: 80px;
+}	  
+.denglu a{
+	 color: #333;
+	 float-size:12px;;
+}
+.denglu a:hover{text-decoration:underline;
+}
+.denglu span{
+	margin: 0 7px;
+}
+.icon{width: 27px;
+	height: 27px;
+display: inline-block;
+background: url(../jpg/icon3.png ) no-repeat center;
+}
+.icon1{
+	background-position:
+	 0 -36px;
+	 position: relative;
+	 top: 8px;
+}
+.icon2{
+	background-position: 0 0;
+	position: relative;
+	top: 8px;
+}	
+.icon3{
+	background-position:0 -73px;
+	position: relative;
+	top: 8px;
+}
+
+/*logo结束*/
+/*导航开始*/
+.daohang-box{width: 100%;
+	height: 55px;
+	background: #f7f7f7;}
+.daohang{width: 1170px;
+	height: 55px;
+		margin: 0 auto;
+		background:#f7f7f7;
+}
+.daohang a:hover{height: 55px;
+	border-bottom: 2px solid red;
+	color: red;}
+.daohang2{margin-right: 7px;
+	margin-top: 7px;
+	float: right;}
+.daohang a{ height: 55px;
+	float: left;
+	margin-right: 45px;
+	line-height:55px;
+	 color: #333
+}
+.sousuo{width: 181px;
+	height: 35px;
+	float: right;
+	background: #fff;
+	margin:10px 0;
+	position: relative;}
+.sousuo input{width:100% ;
+	height: 35px;
+	float: left;
+	display: block;}	
+.sousuo img{width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 3px;
+	top: 5px;}
+/*导航结束*/
+/*banner开始*/
+.banner{
+	width:100%;
+	height: 556px;
+	margin: 0 auto;
+}
+.banner1{width: 1170px;
+	height: 556px;
+	margin: 3px auto 0;
+	position: relative;}
+.banner1 img{width: 1170px;
+	height: 100%;
+	position: absolute;}
+.bodianbox{width: 66px;
+	height: 12px;
+	position: absolute;
+	left: 50%;
+	margin-left: -28px;
+	top: 500px;
+	z-index: 20; }
+.bodianbox div{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	float: left;
+	margin-right: 10px;
+	background: #868686;
+}
+.box2a{
+	width: 1150px;
+	height: 60px;
+	margin: 0 10px;
+	position: absolute;
+	top:248px;
+	left: 0px;
+	
+}
+.box2a .left{
+	width: 30px;
+	height: 100%;
+	background: #cfcfcf;
+	float: left;
+	font-size: 52px;
+	line-height:52px;
+	text-align: center;
+	color: #fff;
+}
+.box2a .right{
+	width: 30px;
+	height: 100%;
+	background: #cfcfcf;
+	float: right;
+	font-size: 52px;
+	line-height: 52px;
+	text-align: center;
+	color: #fff;
+}
+.fuchuang{width: 48px;
+	height: 152px;
+	position: absolute;
+	top:214px;left: 50%;
+	margin-left: 590px; 
+	position: fixed
+}
+.jiancheng{width: 1170px;
+	height: 60px;
+	margin: 15px auto;
+	background: #f7f7f7;}
+/*内容开始*/
+
+.box{width:1170px;height:397px;margin: 0 auto;margin-left:auto;margin-right:auto;}
+.a2{width:370px;height:397px;float: left;margin-right: 30px; }
+.a2 a:hover{color: #333;}
+.a3{width:370px;height:52px;float: left;font-size:17px; line-height:52px;}
+.a4{width:370px;height:53px;float: left;font-size:15px;line-height:23px;}
+.a2.jpg{margin-right: 0px;}
+.box2{width:1170px;height:575px;margin:auto;margin-top:17px;margin-bottom: 25px;}
+.huodong{width: 1170px;height: 258px;background: #f5f5f5;margin: 0 auto;}
+.huodong a{color: #333;}
+.huodong1{ line-height:76px;display: inline-block;
+	width: 1170px;height: 76px;font-weight: bold;text-align: center;font-size: 22px;/*display: inline-block;*/}
+.huodong2{width: 1170px;height: 50px;}	
+	.wenzi1{height:50px;width:401px;float: left;line-height: 50px;font-size: 16px;}
+	.wenzi2{height:50px;width:401px;float: left;line-height: 50px;font-size: 16px;}
+	.wenzi3{height:50px;width:368px;float: left;line-height: 50px;font-size: 16px;}
+	
+	.huodong a:hover{ text-decoration:underline;color: #333;} 
+	.yejiao{width: 1170px; height: 114px }
+	.yejiao1a{width: 287px;height: 114px;float: left;font-size: 14px;margin: 0 15px;}
+	.yejiao1{width: 114px;height: 114px;float: left;}
+	.yejiao2{width: 114px;height: 114px;float: left;}
+	.yejiao3{width: 114px;height: 114px;float: left;}
+	.yejiao2a{width: 287px;height: 114px;float: left;font-size: 14px;}
+	.yejiao3a{width: 250px;height: 114px;float: right;font-size: 14px;}
+.xinxi-box{width: 100%;height:420px;;background: #272727;/*margin: 0 auto;*/position: relative;
+}
+.xinxi{width: 1170px;height: 420px;/*margin:0 auto;*/position: absolute;left: 50%; top:0;margin-left: -540px; background: #272727;}
+.xinxi1 a:hover{text-decoration: underline;color: #fff;}
+.xinxi2{height:40px;font-size: 18px;}
+.xinxi3{height:33px;font-size: 14px;}
+.xinxi4{height:33px;font-size: 14px;}
+.xinxi5{height:33px;font-size: 14px;}
+.xinxi6{width: 371px;height: 420px;float: right;}
+.xinxi7{width: 371px;height: 30px;margin-top: 45px;}
+.xinxi8{width: 371px;height: 34px;margin-top: 24px;margin-bottom: 17px;}
+.xinxi9{width: 32px;height: 32px;float: left;margin-right: 18px;}
+.erweima{width: 371px;height: 83px;margin-left: 0;}
+.erweima1{width: 371px;height: 16px;font-size: 16px;margin-top: 27px;color: #fff;margin-left: 0;}
+.luokuan{width: 371px;height:12px;font-size: 12px;margin-top:95px;color: #fff; }
+.luokuan a:hover{ text-decoration:underline;color: #fff;}
+.luokuan span{margin-left: 15px;margin-right: 10px;}
+.shengming{height: 12px;width: 773px;font-size: 12px;color: #fff;}
+/*.cuowu{height: 420px;width: 773px;}*/
